@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=""en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+
+</head>
+
+<body>
+    <form action="http://localhost:3030/users/create" method="post">
+        <h1>Cadastro</h1>
+
+        <label>
+            <span>Name</span>
+            <input type="text" name="username">
+        </label>
+
+        <label>
+            <span>password</span>
+            <input type="password" name="password">
+        </label>
+
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+
+    <script src="./scrips.js"></script>
+</body>
+</html>
